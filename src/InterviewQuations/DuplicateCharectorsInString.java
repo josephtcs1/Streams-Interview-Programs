@@ -9,8 +9,9 @@ public class DuplicateCharectorsInString {
 			for(int j=i+1;j<str2.length;j++) {
 				if(str2[i]==str2[j]) {
 					System.out.println(str2[j]);
+					
 					//count++;
-					//break;
+					//break++;
 					
 				}
 			}

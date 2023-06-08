@@ -15,6 +15,9 @@ public class StringSwapWithOutThirdVerible {
 		str1=str1.substring(str2.length());
 		System.out.println("First string after swap   "+str1);
 		System.out.println("Second String After swap  "+str2);
+		
+		
+		
 	}
 
 }

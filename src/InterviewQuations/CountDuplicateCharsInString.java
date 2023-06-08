@@ -24,6 +24,18 @@ public class CountDuplicateCharsInString {
 	   kinh.forEach((k,n)->System.out.println(k+" ,"+n));
 	   
 	   
+	   String king ="josepj kosjd iwejwiwdgggggggggggggggsgsdfwerwr";
+	  Map<Character,Long> josh1= king.chars().mapToObj(k->(char) k).collect(Collectors.groupingBy(i->i,Collectors.counting()));
+	  System.out.println(josh1);
+	  josh1.forEach((k,m)->System.out.println(k+" : "+m));
+	  
+	  
+	   String str4 ="joasojpijq";
+	 Map<Character,Long> jodhh  =str4.chars().mapToObj(l->(char) l).collect(Collectors.groupingBy(k->k,Collectors.counting()));
+	 jodhh.forEach((k,m)->System.out.println(k+" :: "+m));
+	   
+	   
+	   
 	   
 	   
 	}

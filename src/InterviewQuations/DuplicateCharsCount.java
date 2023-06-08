@@ -27,6 +27,17 @@ public class DuplicateCharsCount {
            String jos=list1.stream().map(l-> new StringBuffer(l).reverse()).collect(Collectors.joining(" "));
            System.out.println(jos);
            
+           String love="ijdfwhwern weryh weiruyrq ";
+              List<String> list4=Arrays.asList(love.split(" "));
+             String ki= list4.stream().map(k-> new StringBuffer(k).reverse()).collect(Collectors.joining(" "));
+              System.out.println(ki);
+              
+              
+              
+              
+              
+              
+           
 	}
 
 }
