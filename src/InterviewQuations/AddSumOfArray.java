@@ -11,6 +11,7 @@ public class AddSumOfArray {
 		Integer sum =list.stream().reduce(0, Integer :: sum);
 		List<Integer> list1 =list.stream().map(x->x+sum).collect(Collectors.toList());
 		System.out.println(list1);
+    		System.out.println("hiii");
 		
 		// Squre the values
 		list.stream().map(x->x*x).forEach(y->System.out.println(y));
